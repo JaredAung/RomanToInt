@@ -17,6 +17,7 @@ public class RomanToInt2 {
             char current = s.charAt(i);
             if(map.get(current) < prev){
                 total -= map.get(current);
+
             }
             else{
                 total += map.get(current);

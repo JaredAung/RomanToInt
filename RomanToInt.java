@@ -21,6 +21,7 @@ public class RomanToInt {
                     total = total +map.get(x) - map.get(next);
                     i--;
                     continue;
+
                 }
             }
 
